@@ -108,7 +108,7 @@ async def next_page(bot, query):
 
     btn.insert(0,
         [
-            InlineKeyboardButton(text="⚡ʜᴏᴡ ᴛᴏ ᴅᴏᴡɴʟᴏᴀᴅ⚡", url='https://youtu.be/A6_YkUKgbgo')
+            InlineKeyboardButton(text="⚡ʜᴏᴡ ᴛᴏ ᴅᴏᴡɴʟᴏᴀᴅ⚡", url='https://youtube.com/shorts/GfU54p9Eer4?feature=share')
         ]
     )
 
@@ -434,8 +434,8 @@ async def cb_handler(client: Client, query: CallbackQuery):
         buttons = [[
             InlineKeyboardButton('⚚ ΛᎠᎠ MΞ ϮԾ YԾUᏒ GᏒԾUᎮ ⚚', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
         ], [
-            InlineKeyboardButton('⚡ SUBSCᏒIBΞ ⚡', url='https://youtube.com/@GreyMattersYT'),
-            InlineKeyboardButton('🤖 UᎮDΛTΞS 🤖', url='https://t.me/OTT_Updated')
+            InlineKeyboardButton('⚡ SUBSCᏒIBΞ ⚡', url='https://youtube.com/@telegramwallah3835'),
+            InlineKeyboardButton('🤖 UᎮDΛTΞS 🤖', url='https://t.me/sksbackup1')
         ], [
             InlineKeyboardButton('♻️ HΞLᎮ ♻️', callback_data='help'),
             InlineKeyboardButton('♻️ ΛBOUT ♻️', callback_data='about')
