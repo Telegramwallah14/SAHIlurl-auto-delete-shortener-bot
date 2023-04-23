@@ -113,6 +113,10 @@ This module only works for my admins
 <b>᚛› 𝐓𝐨𝐭𝐚𝐥 𝐌𝐞𝐦𝐛𝐞𝐫𝐬 ⪼ <code>{}</code></b>
 <b>᚛› 𝐀𝐝𝐝𝐞𝐝 𝐁𝐲 ⪼ {}</b>
 """
+IMDB_TEMPLATE_TXT = """
+<b>𝐇𝐞𝐲 {message.from_user.mention},
+📁 𝐇𝐞𝐫𝐞 𝐢𝐬 𝐭𝐡𝐞 𝐫𝐞𝐬𝐮𝐥𝐭 𝐟𝐨𝐫 𝐲𝐨𝐮𝐫 {query}
+"""
     LOG_TEXT_P = """#𝐍𝐞𝐰𝐔𝐬𝐞𝐫  
     
 <b>᚛› 𝐈𝐃 - <code>{}</code></b>
