@@ -253,7 +253,9 @@ async def start(client, message):
         chat_id=message.from_user.id,
         file_id=file_id,
         caption=f_caption,
-        reply_markup=InlineKeyboardMarkup( [ [ InlineKeyboardButton('sᴜʙsᴄʀɪʙᴇ', url='https://youtube.com/@telegramwallah3835') ] ] ),
+        reply_markup=InlineKeyboardMarkup( [ [ InlineKeyboardButton('sᴜʙsᴄʀɪʙᴇ', url='https://youtube.com/@telegramwallah3835') ],
+[ InlineKeyboardButton('Main Channel', url='https://t.me/sksbackup1'),
+  InlineKeyboardButton('Group', url='https://t.me/+j42EsbeJsHMwMzQ9') ] ] ),
         protect_content=True if pre == 'filep' else False,
         )
                     
