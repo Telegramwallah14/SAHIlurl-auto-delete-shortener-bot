@@ -435,10 +435,13 @@ async def cb_handler(client: Client, query: CallbackQuery):
     elif query.data == "start":
         buttons = [[
             InlineKeyboardButton('⚚ ΛᎠᎠ MΞ ϮԾ YԾUᏒ GᏒԾUᎮ ⚚', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
-        ], [
+            ],[
+            InlineKeyboardButton('⚡ GROUP 1 ⚡', url='https://t.me/+j42EsbeJsHMwMzQ9'),
+            InlineKeyboardButton('🌟 GROUP 2 🌟', url='https://t.me/+kXJVKIsnmxUxYWE1')
+            ],[
             InlineKeyboardButton('⚡ SUBSCᏒIBΞ ⚡', url='https://youtube.com/@telegramwallah3835'),
-            InlineKeyboardButton('🤖 UᎮDΛTΞS 🤖', url='https://t.me/sksbackup1')
-        ], [
+            InlineKeyboardButton('🤖 Main Channel 🤖', url='https://t.me/sksbackup1')
+            ],[
             InlineKeyboardButton('♻️ HΞLᎮ ♻️', callback_data='help'),
             InlineKeyboardButton('♻️ ΛBOUT ♻️', callback_data='about')
         ]]
@@ -451,11 +454,11 @@ async def cb_handler(client: Client, query: CallbackQuery):
         await query.answer('𝙿𝙻𝙴𝙰𝚂𝙴 𝚂𝙷𝙰𝚁𝙴 𝙰𝙽𝙳 𝚂𝚄𝙿𝙿𝙾𝚁𝚃')
     elif query.data == "help":
         buttons = [[
-            InlineKeyboardButton('𝙼𝙰𝙽𝚄𝙴𝙻 𝙵𝙸𝙻𝚃𝙴𝚁', callback_data='manuelfilter'),
-            InlineKeyboardButton('𝙰𝚄𝚃𝙾 𝙵𝙸𝙻𝚃𝙴𝚁', callback_data='autofilter')
+            InlineKeyboardButton('✅𝙼𝙰𝙽𝚄𝙴𝙻 𝙵𝙸𝙻𝚃𝙴𝚁✅', callback_data='manuelfilter'),
+            InlineKeyboardButton('✅𝙰𝚄𝚃𝙾 𝙵𝙸𝙻𝚃𝙴𝚁✅', callback_data='autofilter')
         ], [
-            InlineKeyboardButton('𝙲𝙾𝙽𝙽𝙴𝙲𝚃𝙸𝙾𝙽𝚂', callback_data='coct'),
-            InlineKeyboardButton('𝙴𝚇𝚃𝚁𝙰 𝙼𝙾D𝚂', callback_data='extra')
+            InlineKeyboardButton('✅𝙲𝙾𝙽𝙽𝙴𝙲𝚃𝙸𝙾𝙽𝚂✅', callback_data='coct'),
+            InlineKeyboardButton('✅𝙴𝚇𝚃𝚁𝙰 𝙼𝙾D𝚂✅', callback_data='extra')
         ], [
             InlineKeyboardButton('🏠 H𝙾𝙼𝙴 🏠', callback_data='start'),
         ]]
