@@ -108,7 +108,9 @@ async def next_page(bot, query):
 
     btn.insert(0,
         [
-            InlineKeyboardButton(text="⚡ʜᴏᴡ ᴛᴏ ᴅᴏᴡɴʟᴏᴀᴅ⚡", url='https://youtube.com/shorts/GfU54p9Eer4?feature=share')
+            InlineKeyboardButton(text="📩How To Download📩", url='https://youtube.com/shorts/GfU54p9Eer4?feature=share'),
+            InlineKeyboardButton(text="🏘️Subscribe🏘️", url='https://youtube.com/@telegramwallah3835'),
+            InlineKeyboardButton(text="✅Main Channel✅", url='https://t.me/sksbackup1')
         ]
     )
 
